@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using tpmodul4_1302223134;
+
+KodePos objKodePos = new KodePos();
+Console.WriteLine("Kode pos Batununggal adalah " + objKodePos.getKodePos(KodePos.enumKelurahan.Batununggal));
